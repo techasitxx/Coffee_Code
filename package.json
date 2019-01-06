@@ -26,6 +26,8 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-blog-home.git"
     },
     "dependencies": {
+        "angular": "^1.7.5",
+        "angular-ui-router": "^1.0.20",
         "boostrap": "^2.0.0",
         "bootstrap": "4.1.1",
         "jquery": "^3.3.1",
