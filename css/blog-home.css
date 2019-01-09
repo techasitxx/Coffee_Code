@@ -1,97 +1,87 @@
-/*!
+/* /* !
  * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
  */
-
-body {
-  padding-top: 54px;
-  font-family: "Kanit", arial, sans-serif;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
+ @font-face {
+  font-family: 'Volte Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/web-font/Volte/Volte-Regular.woff') format('woff');
   }
-}
-header {
-  position: relative;
-  background-color: black;
-  height: 60vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-footer {
-  background-color:#63320e;
-}
-header .container {
-  position: relative;
-  z-index: 2;
-}
-
-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('https://storage.googleapis.com/coverr-public/poster/Double_Espresso.jpg') black no-repeat center center scroll;
+  
+  
+  @font-face {
+  font-family: 'Volte Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Volte Regular'), url('Volte-Regular.woff') format('woff');
   }
-  header video {
-    display: none;
+  
+  
+  @font-face {
+  font-family: 'Volte Regular 2';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Volte Regular 2'), url('Volte-Regular2.woff') format('woff');
   }
-}
- /* box */
-.site-heading h3{
-    font-size : 40px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-.border {
-    background: #d1360e;
-    height: 2px;
-    width: 165px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
-}
-.sticky.is-sticky {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-}
-
-body {
-min-height: 1200px;
-}
+  
+  
+  @font-face {
+  font-family: 'Volte Regular 3';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Volte Regular 3'), url('Volte-Regular3.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Volte Regular 4';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Volte Regular 4'), url('Volte-Regular4.woff') format('woff');
+  }
+  .volte-text{
+    font-family:"Volte Regular"
+  }
+ @font-face {
+  font-family:  font-semibold;
+  src: 
+  url('/web-font/ThaiSans/TrueType/ThaiSansNeue-SemiBold.ttf') format('truetype');
+  }
 nav {
-background: #eaebec;
-min-height: 50px;
+  font-family: font-semibold,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.thai{
+  font-family: font-semibold,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 22px;
+}
+header nav .MdPrimaryList li {
+  display: inline-block;
+  padding: 23px 25px;
+  line-height: 44px;
+  font-weight: 400;
+  font-size: 50px;
+  font-size: 1.5rem;
+}
+header nav .MdPrimaryList li .mdMNSecondary div, header nav .MdPrimaryList li .mdMNSecondaryWide div {
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  font-size: 1.5rem;
+}
+.btn-outline-primary {
+  color: #6a3311;
+  background-color: transparent;
+  background-image: none;
+  border-color: #6a3311;
+}
+.btn:hover{
+  color:#6a3311;
+  background:transparent;
+  border-color: #6a3311
+}
+button:active {
+ background-color: #6a3311;
+ border-color: #6a3311;
 }
