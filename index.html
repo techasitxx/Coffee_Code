@@ -1,40 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html class="no-js" lang="en" ng-app="app">
 
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,minimum-scale=1, user-scalable=no, target-densitydpi=medium-dpi">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="shortcut icon" href="/images/logo.png" />
   <title>Coffee</title>
-  <!-- Bulma core CSS -->
-  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <!-- Animate.CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  <!-- font -->
-  <link href="web-font/ThaiSans Neue v1.0/TrueType/ThaiSansNeue-Regular.ttf" rel="stylesheet">
   <!-- Line style -->
-  <link href="css/style.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
   <link href="css/blog-home.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- ScrollReveal.js-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    window.sr = ScrollReveal({
+      reset: true
+    });
+  </script>
 </head>
+
 <body>
   <!-- Navigation -->
   <div ng-include="'app/includes/navbar.html'"></div>
+  <!-- view -->
   <div ui-view></div>
   <!-- Footer -->
-  <div ng-include="'app/includes/footer.html'"></div>
+  <div ng-include="'app/Includes/footer.html'"></div>
   <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <!--bootsrap js-->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <!-- Youtube call api -->
-   <script src="js/api.js"></script>
+  <script src="js/api.js"></script>
   <!-- Angular.js -->
   <script src="angular/angular.min.js"></script>
   <script src="angular-ui-router/release/angular-ui-router.min.js"></script>
   <script src="app/app.js"></script>
-  <script src="https://scdn.line-apps.com/n/_s1/_0/linecorpweb-uit/scripts/main_1545879756.js"></script>
+  <script>
+    function myFunction() {
+      location.reload();
+    }
+  </script>
 </body>
+
 </html>

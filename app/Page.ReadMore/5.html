@@ -1,21 +1,13 @@
 <div class="container">
 
-    <div class="row">
+    <div class="row content">
         <div class="col-md-12">
             <h1 class="mt-4">ทำไมกาแฟสำเร็จรูป ไม่อร่อยเท่ากาแฟสด
             </h1>
-            <div class=" text-muted">
-                <small>Posted on November 18, 2018 by
-                    <a href="#">Admin-Bas</a>
-                </small>
-
-            </div>
             <hr>
         </div>
         <!-- Blog Entries Column -->
-        <div class="col-md-8">
-
-
+        <div class="col-md-12">
             <!-- Blog Post -->
             <p style="text-indent: 2.5em;">กาแฟผงสำเร็จรูป คือน้ำกาแฟที่ถูกนำไปทำให้แห้ง
                 เพื่อความสะดวกในขั้นตอนการชงดื่ม คือชงได้สะดวกรวดเร็ว
@@ -23,7 +15,7 @@
                 เพราะกาแฟผงสำเร็จรูปเป็นกาแฟที่สามารถละลายในน้ำร้อนได้หมด ไม่มีกากกาแฟเหลืออยู่ เก็บรักษาก็ง่าย
                 กลิ่นและรสชาติไม่แปรปรวน พกพาไปไหนมาไหนก็สะดวก</p>
             <img src="https://nescafedolcegusto.popsho.ps/blog/wp-content/uploads/2017/07/taste-of-instant-coffee_2.jpg"
-                class="w-100  shadow-sm p-1 my-3 bg-white rounded">
+                class="img-content">
             <p>
                 สำหรับกาแฟสด ที่ได้ชื่อนี้เพราะเป็นการชงกาแฟแบบสดใหม่ตอนที่ต้องการดื่ม
                 เพราะฉะนั้นขั้นตอนจะยุ่งยากมากกว่า ทั้งต้องบดเมล็ดกาแฟ นำใส่เครื่องชงซึ่งมีหลากหลายชนิดให้เลือกใช้
@@ -99,7 +91,8 @@
                             </li>
                         </ul>
                     </li>
-                    <img src="https://www.prachachat.net/wp-content/uploads/2017/08/mar07210860p1.jpg" class="w-100 shadow-sm p-1 my-3 bg-white rounded">
+                    <img src="https://www.prachachat.net/wp-content/uploads/2017/08/mar07210860p1.jpg"
+                     class="img-content">
 
                 </ol>
                 <p>
@@ -111,27 +104,10 @@
                     หรือต้องการดื่มเพื่อเติมคาเฟอีนเข้าร่างกายเท่านั้นเอง
                 </p>
                 <!-- Credit -->
-                <div class="text-center my-5">
-                    <a href="https://nescafedolcegusto.popsho.ps/blog/taste-of-instant-coffee/">Source</a>
-                </div>
-
-                <!-- Pagination -->
-                <ul class="pagination justify-content-center mb-4">
-                    <li class="page-item">
-                        <a class="page-link" ui-sref="page4">&larr; Older</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" ui-sref="page6">Newer &rarr;</a>
-                    </li>
-                </ul>
-
+                <<div ng-include="'app/Includes/credit.html'"></div>
         </div>
 
         <!-- Sidebar Widgets Column -->
-        <div class="col-md-4">
-            <!-- Categories Widget -->
-            <div ng-include="'app/includes/categories.html'"></div>
-        </div>
     </div>
     <!-- /.row -->
 </div>

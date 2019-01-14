@@ -419,7 +419,7 @@ header nav h1.logo {
 }
 header nav .MdPrimaryList {
     float: left;
-    margin-left: 132px;
+    margin-left: 240px;
     height: 90px;
 }
 header nav .MdPrimaryList #primary0 {
@@ -835,7 +835,6 @@ footer ul.bottomLink li:not(:last-child):after {
     font-weight: 600;
     color: #000;
 }
-mvLinkSubTxt
 .article_top .Md04InfoList .md04Txt {
     display: inline-block;
     font-size: 14px;

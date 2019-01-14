@@ -9,79 +9,216 @@
   font-weight: normal;
   src: url('/web-font/Volte/Volte-Regular.woff') format('woff');
   }
-  
-  
   @font-face {
-  font-family: 'Volte Regular';
+  font-family: 'Volte-3';
   font-style: normal;
   font-weight: normal;
-  src: local('Volte Regular'), url('Volte-Regular.woff') format('woff');
+  src:url('/web-font/Volte/Volte-Regular3.woff') format('woff');
   }
   
   
   @font-face {
-  font-family: 'Volte Regular 2';
+  font-family: 'Volte-4';
   font-style: normal;
   font-weight: normal;
-  src: local('Volte Regular 2'), url('Volte-Regular2.woff') format('woff');
+  src: url('/web-font/Volte/Volte-Regular4.woff') format('woff');
   }
-  
-  
-  @font-face {
-  font-family: 'Volte Regular 3';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Volte Regular 3'), url('Volte-Regular3.woff') format('woff');
+  .volte-3{
+    font-family: Volte-3, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif
   }
-  
-  
-  @font-face {
-  font-family: 'Volte Regular 4';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Volte Regular 4'), url('Volte-Regular4.woff') format('woff');
+  .volte-4{
+    font-family: Volte-4, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif
   }
   .volte-text{
-    font-family:"Volte Regular"
+    font-family: Volte Regular, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif
   }
  @font-face {
-  font-family:  font-semibold;
+  font-family: 'thaifont';
   src: 
-  url('/web-font/ThaiSans/TrueType/ThaiSansNeue-SemiBold.ttf') format('truetype');
+  url('/web-font/ThaiSans/TrueType/ThaiSansNeue-Regular.ttf') format('truetype');
   }
-nav {
-  font-family: font-semibold,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
-}
-.thai{
-  font-family: font-semibold,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+.thaifont{
+  font-family:  thaifont,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
   font-size: 22px;
 }
+#navbar {
+  transition: top 0.3s
+}
+nav {
+  font-family:  thaifont,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
 header nav .MdPrimaryList li {
   display: inline-block;
   padding: 23px 25px;
   line-height: 44px;
   font-weight: 400;
   font-size: 50px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 header nav .MdPrimaryList li .mdMNSecondary div, header nav .MdPrimaryList li .mdMNSecondaryWide div {
   color: #000;
   cursor: pointer;
   font-size: 16px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
-.btn-outline-primary {
+.btn {
   color: #6a3311;
   background-color: transparent;
   background-image: none;
   border-color: #6a3311;
+  font-size:18px;
+  border-radius: 50px;
 }
-.btn:hover{
+.navLink:hover {
+  text-decoration: none;
+  color: #343a40;
+}
+.navLink{
+  color: #343a40;
+}
+p.text-center{
+  color:#343a40
+}
+.card {
+  border:none;
+  cursor: pointer;
+  padding: 0px 10px
+}
+.card-body{
+  padding:0;
+  padding-top: 20px
+}
+.card-title{
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 500px;
+  font-size: 1.4rem;
+  line-height: 23px;
+  font-weight: 400;
+  color: #000;
+  overflow: hidden;
+}
+/* .card:hover{
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  -webkit-shadow: -1px 0px 40px -12px rgba(0,0,0,0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75)
+
+} */
+a.on{
+  color: #00b900!important;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+a:hover{
+  text-decoration: none;
+  color:none;
+}
+a.n-2 {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 0 10px;
+  vertical-align: middle;
+  color: #949494!important;
+}
+.b_next {
+  padding: 0!important;
+  vertical-align: middle;
+  margin: 0 10px;
+  width: 18px;
+  height: 14px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  background-image: url(/images/next.png);
+
+}
+.b_pev{
+  padding: 0!important;
+  vertical-align: middle;
+  margin: 0 10px;
+  width: 18px;
+  height: 14px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  background-image: url(/images/back.png);
+}
+  a.blind {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    position: absolute;
+}
+
+.article_pr .board_paging span {
+  font-size: 15px;
+  line-height: 20px;
+  color: #8c8c8c;
+}
+a.readMore{
+  color:#777!important;
+  font-size:.875rem;
+  cursor: pointer; 
+}
+.card-img-top{
+  width:100%;
+  height:196px
+}
+.coffee{
   color:#6a3311;
-  background:transparent;
-  border-color: #6a3311
+  font-size:1.045rem
 }
-button:active {
- background-color: #6a3311;
- border-color: #6a3311;
+.content {
+  font-family:  thaifont,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 1.3567rem;
+  padding: 35px 0 25px;
+  margin-top: -50px;
+}
+.content p {
+  line-height: 2rem;
+  color:#666;
+  font-weight:300px;
+}
+.content h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: #191919;
+  margin-bottom: 2rem
+}
+.img-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+    width: 700px;
+    height: 424px;
+    padding: 20px 0 20px 0
+}
+.sl-content a {
+  font-family: Volte-4, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif;
+  font-size: 1rem;
+  color:#000;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+.line-nav a:hover {
+  border-bottom: 3px solid #6a3311;
+  margin-top: 5rem
+}
+
+.line-nav a.active {
+  border-bottom: 3px solid #6a3311;
 }

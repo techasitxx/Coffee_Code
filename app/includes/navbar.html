@@ -1,34 +1,37 @@
 <header>
   <div>
-    <nav>
-      <div class="MdMainMenu onlyPC">
-        <h1 class="logo">LINE</h1>
-        <ul class="MdPrimaryList" style="font-size: 50px">
+    <nav class=" fadeInDown animated delay-1s  volte-text" id="navbar">
+      <div class="MdMainMenu onlyPC ">
+        <h1 class="logo animated infinite slow pulse">LINE</h1>
+        <ul class="MdPrimaryList ">
           <li id="primary0">
             <div>หน้าหลัก</div>
           </li>
-          <li id="primary1">
-            <div class="mdPrimaryLink">Home</div>              
-          <li id="primary2">
-            <div class="mdPrimaryLink">Categories</div>
+          <li id="primary1 " class="line-nav">
+              <a href="/index.html" class="navLink active" onclick="myFunction()">Home</a>              
+          <li id="primary2 " class="line-nav">
+              <a ui-sref="categories" class="navLink">Categories</a>
           </li>
-          <li id="primary3">
-            <div class="mdPrimaryLink">Coffee &amp; How To</div>
+          <li id="primary3 " class="line-nav">
+              <a ui-sref="" class="navLink">Coffee &amp; How To</a>
           </li>
-          <li id="primary4">
-            <div class="mdPrimaryLink">สมัครงาน</div>
-            <div class="mdMNSecondary">
-              <div class="mdMNSecondaryInner">
-                <ul class="secondChildren" style="left: 502.445px;">
-                  <li>
-                    <div class="mdSecondChild">บุคลากรและหน้าที่</div>
-                  </li>
-                  <li>
-                    <div class="mdSecondChild">ตำแหน่งที่เปิดรับ</div>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <li class="line-nav">
+              <a ui-sref="" class="navLink">About Me</a>
+          </li>
+          <li>
+              <a href="http://line.me/ti/p/%40hlf5468i" class="mdPrimaryLink navLink " style="color: #00b900; font-weight:bold">LINE +</a>
           </li>
         </ul>
 </header>
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-90px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+</script>
