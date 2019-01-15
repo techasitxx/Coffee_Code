@@ -181,6 +181,10 @@ a.readMore{
   color:#6a3311;
   font-size:1.045rem
 }
+.content a:hover{
+  text-decoration: underline;
+  text-decoration-color: #faa500
+}
 .content {
   display:block;
   font-family:  thaifont,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;

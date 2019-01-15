@@ -64,51 +64,51 @@ app.config(function($stateProvider, $urlRouterProvider){
         templateUrl: 'app/Page.ReadMore/12.html'
     })
     .state('page13', {
-        url: '/blag/content/',
+        url: '/blag/content/เมล็ดกาแฟ_เก็บอย่างไรให้คงคุณภาพได้ดี',
         templateUrl: 'app/Page.ReadMore/13.html'
     })
     .state('page14', {
-        url: '/blag/content/',
+        url: '/blag/content/กากกาแฟ_มีประโยชน์นะ_ชงเสร็จแล้วอย่าเพิ่งทิ้ง',
         templateUrl: 'app/Page.ReadMore/14.html'
     })
     .state('page15', {
-        url: '/blag/content/',
+        url: '/blag/content/จากผลเชอร์รี่_สู่กาแฟถ้วยโปรด',
         templateUrl: 'app/Page.ReadMore/15.html'
     })
     .state('page16', {
-        url: '/blag/content/',
+        url: '/blag/content/คั่วเมล็ดกาแฟต่างกัน_ให้รสชาติที่ต่างกัน',
         templateUrl: 'app/Page.ReadMore/16.html'
     })
     .state('page17', {
-        url: '/blag/content/',
+        url: '/blag/content/ลาเต้_อาร์ต_ศิลปะเพิ่มเสน่ห์ให้กาแฟ',
         templateUrl: 'app/Page.ReadMore/17.html'
     })
     .state('page18', {
-        url: '/blag/content/',
+        url: '/blag/content/เมนูกาแฟเยอะจริง_สั่งอย่างไรดี',
         templateUrl: 'app/Page.ReadMore/18.html'
     })
     .state('page19', {
-        url: '/blag/content/',
+        url: '/blag/content/ดื่มกาแฟให้ได้ประโยชน์สูงสุด_โทษต่ำสุด',
         templateUrl: 'app/Page.ReadMore/19.html'
     })
     .state('page20', {
-        url: '/blag/content/',
+        url: '/blag/content/4_องค์ประกอบสำคัญของ_espresso_perfect_shot',
         templateUrl: 'app/Page.ReadMore/20.html'
     })
     .state('page21', {
-        url: '/blag/content/',
+        url: '/blag/content/5_ข้อ_ชงเอสเปรสโซ่ให้_perfect',
         templateUrl: 'app/Page.ReadMore/21.html'
     })
     .state('page22', {
-        url: '/blag/content/',
+        url: '/blag/content/เอสเปรสโซ่_คำเรียกคุ้นหูนี้คืออะไร',
         templateUrl: 'app/Page.ReadMore/22.html'
     })
     .state('page23', {
-        url: '/blag/content/',
+        url: '/blag/content/ไม่ดื่มกาแฟ_แต่ไปดื่มชาและน้ำอัดลมแทน_หลีกเลี่ยงคาเฟอีนได้จริงหรือ',
         templateUrl: 'app/Page.ReadMore/23.html'
     })
     .state('page24', {
-        url: '/blag/content/',
+        url: '/blag/content/หลัก_FABAF_กินกาแฟให้ได้อรรถรส',
         templateUrl: 'app/Page.ReadMore/24.html'
     })
     // end blog
