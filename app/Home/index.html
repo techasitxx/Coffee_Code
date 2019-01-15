@@ -71,6 +71,7 @@
   </section>
 </div><!-- article_top -->
 </div><!-- LyContainer -->
+<!-- Animation -->
 <script>
    sr.reveal('.headline',{
      duration: 1000,
@@ -80,4 +81,10 @@
     duration: 1000,
     interval: 100
   })
+</script>
+<!-- click ontop -->
+<script>
+  $("[ui-sref]").click(function(){
+   scroll(0,0);
+  });
 </script>

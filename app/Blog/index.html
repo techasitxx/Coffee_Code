@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container ">
   <div>
     <h1 class="thaifont sub_title_pc_area" style="font-size: 3rem">Categories</h1>
   </div>
@@ -113,7 +113,7 @@
         </div>
       </div>
     </div>
-    <div ui-sref="page12" class="col-md-4 py-4 content-load">
+    <div ui-sref="page12" class="col-md-4 py-4 content-load ">
       <div class="card" style="width: 21rem;">
         <img src="https://nescafedolcegusto.popsho.ps/blog/wp-content/uploads/2017/07/thai-coffee-vs-fresh-coffee-300x200.jpg"
           class="card-img-top" alt="...">
@@ -135,4 +135,10 @@
     duration: 1000,
     interval: 200
   })
+</script>
+<!-- click ontop -->
+<script>
+  $("[ui-sref]").click(function(){
+   scroll(0,0);
+  });
 </script>
