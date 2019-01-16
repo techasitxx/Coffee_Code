@@ -1287,14 +1287,6 @@ footer ul.bottomLink li:last-child {
     overflow: hidden;
 }
 
-.article_top .content01 .mvTxtBox {
-    top: 0;
-    bottom: 0;
-    padding-top: 246px;
-    font-family: volteweb, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif;
-    z-index: 1;
-}
-
 .article_top .content01 .mvTxt {
     margin-bottom: 40px;
     font-size: 60px;
