@@ -41,27 +41,42 @@
   font-family:  thaifont,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
   font-size: 22px;
 }
-#navbar {
+#navScroll {
   transition: top 0.3s
 }
-nav {
+nav{
+  font-family: Volte Regular, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color:hsla(0,0%,100%,.95);
+  font-weight: bold;
+} 
+.navbar-nav li {
+  text-align: right;
+  margin: 0.5rem;
+  cursor: pointer;
+ }
+/* nav {
   font-family:  thaifont,Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+  background-color: hsla(0,0%,100%,.95);
 }
-
-header nav .MdPrimaryList li {
+ nav  li {
+  font-family:  Volte Regular, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif;
   display: inline-block;
-  padding: 23px 25px;
   line-height: 44px;
-  font-weight: 400;
+  font-weight: 5rem;
   font-size: 50px;
-  font-size: 1rem;
-}
-header nav .MdPrimaryList li .mdMNSecondary div, header nav .MdPrimaryList li .mdMNSecondaryWide div {
+  font-size: 1.125rem;
+  padding: 5px 15px;
+} */
+/* header nav .MdPrimaryList li .mdMNSecondary div, header nav .MdPrimaryList li .mdMNSecondaryWide div {
   color: #000;
   cursor: pointer;
   font-size: 16px;
   font-size: 1.4rem;
-}
+} */
 .btn {
   color: #6a3311;
   background-color: transparent;
@@ -74,8 +89,8 @@ header nav .MdPrimaryList li .mdMNSecondary div, header nav .MdPrimaryList li .m
   text-decoration: none;
   color: #343a40;
 }
-.navLink{
-  color: #343a40;
+.nav-link{
+  color: #343a40 !important;
 }
 p.text-center{
   color:#343a40
@@ -201,7 +216,8 @@ a.readMore{
   font-size: 3rem;
   font-weight: 300;
   color: #191919;
-  margin-bottom: 2rem
+  margin-bottom: 2rem;
+  margin-top: 4rem !important;
 }
 .img-content {
     display: block;
@@ -220,10 +236,39 @@ a.readMore{
   text-decoration-style: solid;
 }
 .line-nav a:hover {
-  border-bottom: 3px solid #6a3311;
-  margin-top: 5rem
+  border-bottom: 2px solid #6a3311;
 }
-
 .line-nav a.active {
-  border-bottom: 3px solid #6a3311;
+  border-bottom: 2px solid #6a3311;
 }
+.line{
+  color: #00b900 !important;
+  font-weight: bold;
+}
+.article_top .content01 .mvLinkSubTxt {
+  font-size:4rem; 
+  font-weight: normal; 
+  line-height: 20px
+}
+.article_top .content01 .mvTxtBox {
+  top: 0;
+  bottom: 0;
+  padding-top: 246px;
+  font-family: volteweb, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif;
+  z-index: 1;
+}
+@media only screen and (max-width:600px){
+  .mvLinkSubTxt{
+    margin-top: -5rem;
+    font-size:2rem; 
+    font-weight: normal; 
+    line-height: 60px !important;
+  }
+  .article_top .content01 .mvTxtBox{
+    top: 0;
+    bottom: 0;
+    padding-top: 190px !important;
+    font-family: volteweb, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif;
+    z-index: 1;
+}
+  }
