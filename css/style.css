@@ -1063,7 +1063,7 @@ footer ul.bottomLink li:last-child {
 
 .article_top .content01 .mvTxtBox {
     position: absolute;
-    top: 87px;
+    top: 0px;
     left: 0;
     right: 0;
     text-align: center;

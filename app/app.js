@@ -14,6 +14,10 @@ app.config(function($stateProvider, $urlRouterProvider){
         url: '/menu_page',
         templateUrl: 'app/Menu/index.html'
     })
+    .state('Menu_2', {
+        url: '/menu_page_2',
+        templateUrl: 'app/Next-Manu/index.html'
+    })
     // Start blog content 1-24
     .state('page1', {
         url: '/blag/content/ประวัติของกาแฟ',

@@ -267,8 +267,21 @@ a.readMore{
   .article_top .content01 .mvTxtBox{
     top: 0;
     bottom: 0;
-    padding-top: 190px !important;
+    padding-top: 190px ;
     font-family: volteweb, Helvetica Neue, Helvetica, Arial, NanumGothic, Malgun Gothic, sans-serif;
     z-index: 1;
 }
   }
+.rounded-circle{
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body{
+  text-align:center;
+}
+.col-md-3{
+  padding: 25px;
+}
