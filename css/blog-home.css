@@ -50,7 +50,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color:hsla(0,0%,100%,.95);
+  background-color:hsla(0,0%,100%,.10);
   font-weight: bold;
 } 
 .navbar-nav li {
@@ -284,4 +284,7 @@ a.readMore{
 }
 .col-md-3{
   padding: 25px;
+}
+div .header-2 h2{
+  text-align: center;
 }
